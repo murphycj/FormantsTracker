@@ -16,7 +16,11 @@ setuptools.setup(
     project_urls={},
     include_package_data=True,
     package_data={
-        "formantstracker": ["conf/config.yaml", "saved_ckpts/196_1125.ckpt"],
+        "formantstracker": [
+            "conf/config.yaml",
+            "saved_ckpts/196_1125.ckpt",
+            "test_dir/*wav",
+        ],
     },
     install_requires=[
         "boltons==21.0.0",
