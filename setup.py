@@ -15,6 +15,9 @@ setuptools.setup(
     url="https://github.com/murphycj/FormantsTracker",
     project_urls={},
     include_package_data=True,
+    package_data={
+        "formantstracker": ["conf/config.yaml", "saved_ckpts/196_1125.ckpt"],
+    },
     install_requires=[
         "boltons==21.0.0",
         "hydra-core==1.3.2",
