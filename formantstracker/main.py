@@ -1,7 +1,7 @@
 import hydra
 import torch
 from argparse import Namespace
-from solver import Solver
+from formantstracker.solver import Solver
 
 @hydra.main(version_base=None,config_path='conf', config_name='config')
 def main(cfg):

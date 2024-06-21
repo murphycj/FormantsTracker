@@ -2,9 +2,9 @@ import os
 import torch
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
-from dataloader import  collate_fn_padd,get_test_dataset
-import utils
-from model import FormantTracker
+from formantstracker.dataloader import  collate_fn_padd,get_test_dataset
+import formantstracker.utils as utils
+from formantstracker.model import FormantTracker
 from tqdm import tqdm
 
 

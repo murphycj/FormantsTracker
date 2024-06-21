@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils import LambdaLayer
+from formantstracker.utils import LambdaLayer
 
 
 #======================2D===================#
