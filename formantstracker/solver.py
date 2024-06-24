@@ -17,9 +17,9 @@ class Solver:
         self.n_bins = (self.hp.n_fft // 2) + 1
         self.bin_resolution = (self.hp.sample_rate / 2) / self.n_bins
         self.test_loader = None
-        self.init_test_loader()
-        self.model = None
-        self.build_model()
+        # self.init_test_loader()
+        # self.model = None
+        # self.build_model()
 
     def init_test_loader(self):
         test_dataset = get_test_dataset(self.hp)
