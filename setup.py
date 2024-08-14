@@ -29,7 +29,6 @@ setuptools.setup(
         "numpy==1.23.4",
         "PyYAML==6.0",
         "scipy==1.10.1",
-        "torchaudio==0.13.1",
         "tqdm==4.64.1",
     ],
     classifiers=[
